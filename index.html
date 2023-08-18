@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beau  formulaire en HTML et CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/svg" sizes="16x16" href="icons/address-card-regular.svg">
+    <script src="script.js"></script>
+</head>
+<body class="theme-vert color-transition">
+    <form class="color-transition">
+        <div class="top">
+            <h1>Contactez-nous</h1>
+            <input type="button" value="Thème" onclick="theme()">
+        </div>
+        <div class="separation"></div>
+        <div class="corps-formulaire">
+            <div class="gauche">
+                <div class="groupe">
+                    <label>Votre prénom</label>
+                    <input type="text" placeholder="Martin">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="groupe">
+                    <label>Votre adresse e-mail</label>
+                    <input type="email" placeholder="martin@exemple.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="groupe">
+                    <label>Votre téléphone</label>
+                    <input type="tel" placeholder="0605040302">
+                    <a href="tel:0695226104"><i class="fa-solid fa-mobile"></i></a>
+                </div>
+            </div>
+            <div class="droite">
+                <div class="groupe">
+                    <label>Message</label>
+                    <textarea placeholder="Saisissez ici..."></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="pied-formulaire" align="center">
+            <button>Envoyer le message</button>
+        </div>
+    </form>
+</body>
+</html>
